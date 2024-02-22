@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "cover": "../src/assets/images/1.jpg",
+    "title": "the great adventure",
+    "author": "john doe",
+    "author_img": "../src/assets/images/boy1.png",
+    "posted_date": "2023-11-01",
+    "reading_times": 112,
+    "hashtags": ["adventure", "fiction", "exploration"]
+  },
+  {
+    "id": 2,
+    "cover": "../src/assets/images/2.png",
+    "title": "mystery of the ancient castle",
+    "author": "jane smith",
+    "author_img": "../src/assets/images/boy2.png",
+    "posted_date": "2023-11-02",
+    "reading_times": 78,
+    "hashtags": ["mystery", "history", "detective"]
+  },
+  {
+    "id": 3,
+    "cover": "../src/assets/images/3.png",
+    "title": "into the unknown",
+    "author": "sam wilson",
+    "author_img": "../src/assets/images/girl1.jpg",
+    "posted_date": "2023-11-03",
+    "reading_times": 45,
+    "hashtags": ["adventure", "science", "exploration"]
+  },
+  {
+    "id": 4,
+    "cover": "../src/assets/images/4.jpg",
+    "title": "under the sea",
+    "author": "emily brown",
+    "author_img": "../src/assets/images/girl2.jpg",
+    "posted_date": "2023-11-04",
+    "reading_times": 98,
+    "hashtags": ["nature", "ocean", "marine"]
+  }
+]
