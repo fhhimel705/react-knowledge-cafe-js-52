@@ -26,7 +26,7 @@ const Blog = ({ blog, addToBookmark }) => {
         </div>
         <div>
           <p>{reading_times} min</p>
-          <button onClick={addToBookmark}>
+          <button onClick={() => addToBookmark(blog)}>
             <FaRegBookmark></FaRegBookmark>
           </button>
         </div>
@@ -43,5 +43,6 @@ const Blog = ({ blog, addToBookmark }) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  addToBookmark: PropTypes.func,
 };
 export default Blog;
